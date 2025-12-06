@@ -5,7 +5,7 @@ import streamlit as st
 # --- 1. DOWNLOAD THE WORD LIST (Safety Check) ---
 try:
     nltk.data.find('sentiment/vader_lexicon.zip')
-except nltk.downloader.DownloadError:
+except LookupError: # Use the general LookupError for missing resources
     nltk.download('vader_lexicon')
 
 
@@ -70,4 +70,5 @@ if st.button('Analyze Sentiment') and user_input:
         st.progress(neg, text="Negative")
 
     st.markdown("---")
+
     st.info(f"Your input was: **{user_input}**")
