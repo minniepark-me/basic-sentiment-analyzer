@@ -61,8 +61,3 @@ As an MCA graduate and AI enthusiast, I am always looking to improve this projec
 ---
 
 **Developed by Megha Prasad**
-
-
-3. **Use Markdown:** Remember to name the file exactly `README.md`. GitHub will automatically render it as a beautiful webpage with bold text and buttons.
-
-**Would you like me to help you write a LinkedIn post to share this project with your professional network?** 🚀✨
