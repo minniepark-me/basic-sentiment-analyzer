@@ -85,4 +85,5 @@ if st.button("Analyze Emotion", type="primary"):
                 st.plotly_chart(fig_radar, use_container_width=True)
 
 st.write("---")
-st.caption("Built for MCA Portfolio | Powered by Hugging Face Transformers & Streamlit")
+st.caption("Built for Megha Prasad | Powered by Hugging Face Transformers & Streamlit")
+
